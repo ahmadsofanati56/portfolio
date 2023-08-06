@@ -5,7 +5,7 @@ import { api } from "~/utils/api";
 import "~/styles/globals.css";
 import localFont from "@next/font/local";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "../containers/navbar";
+import NavBar from "../containers/navBar";
 const MyApp: AppType<{ session: Session | null }> = ({
   Component,
   pageProps: { session, ...pageProps },
